@@ -31,6 +31,7 @@ end
 def kesha_maker(strings)
   result = strings.map do |e|
     e[2] = '$'
+    e
   end
   result
 end
