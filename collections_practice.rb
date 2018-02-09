@@ -17,4 +17,5 @@ end
 
 def swap_elements(numbers)
   numbers[1], numbers[2] = numbers[2], numbers[1]
+  numbers
 end
