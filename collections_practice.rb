@@ -41,3 +41,7 @@ def find_a(strings)
     value.start_with?('a')
   end
 end
+
+def sum_array(numbers)
+  numbers = numbers.reduce(:+)
+end
