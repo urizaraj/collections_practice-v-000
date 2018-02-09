@@ -35,3 +35,8 @@ def kesha_maker(strings)
   end
   result
 end
+
+def find_a(strings)
+  result = strings.find_all do |value|
+    value.start_with?('a')
+  end
