@@ -45,3 +45,9 @@ end
 def sum_array(numbers)
   numbers = numbers.reduce(:+)
 end
+
+def add_s(strings)
+  result = strings.each_with_index.collect do |w, i|
+    w << 's' if i != 1
+  end
+end
