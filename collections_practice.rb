@@ -27,3 +27,10 @@ def reverse_array(array)
   end
   result
 end
+
+def kesha_maker(strings)
+  result = strings.map do |e|
+    e[2] = '$'
+  end
+  result
+end
